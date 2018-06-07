@@ -1,13 +1,51 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-  <head>
-      <title>SSBD</title>
-      <link href="./css/style.css" type="text/css" rel="stylesheet">
-      <meta name="viewport" content="user-scalable=0, initial-scale=1, 
-       minimum-scale=1, width=device-width, height=device-height">
-  </head>
-  <body>
+<head>
+<title>SSBD</title>
+<style>
+body {
+  padding: 30px;
+  margin: 0px;
+}
+#snowflakeContainer {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.snowflake {
+  padding-left: 15px;
+  font-family: Cambria, Georgia, serif;
+  font-size: 14px;
+  line-height: 24px;
+  position: fixed;
+  color: #FFFFFF;
+  user-select: none;
+  z-index: 1000;
+}
+.snowflake:hover {
+  cursor: default;
+}
+#content {
+  margin: auto;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div id="snowflakeContainer">
+  <p class="snowflake"><img src="https://emoji.slack-edge.com/T048HP6GU/ssbd/2a155291f6bee8de.png"/ width=50></p>
+  <p class="snowflake"><img src="https://emoji.slack-edge.com/T048HP6GU/ssbd/2a155291f6bee8de.png"/ width=50></p>
+  <p class="snowflake"><img src="https://emoji.slack-edge.com/T048HP6GU/ssbd/2a155291f6bee8de.png"/ width=50></p>
+</div>
+
+<div id="content">
     <h1>SSBD's </h1>
-    <img src="./assets/HD.jpg" alt="KoR" style="width:200 px">
-  </body>
+    <img src="./assets/HD.jpg" alt="KoR" style="width:30%">
+</div>
+
+<script src="ssbd.js"></script>
+<script src="http://www.kirupa.com/js/prefixfree.min.js"></script>
+</body>
+
 </html>
